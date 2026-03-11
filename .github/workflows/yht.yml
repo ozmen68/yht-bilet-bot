@@ -19,4 +19,4 @@ jobs:
 
       - name: Paketleri kur
         run: pip install -r requirements.txt
-        run: python test.py
+        run: python yht_bot.py
