@@ -60,6 +60,7 @@ https://ebilet.tcddtasimacilik.gov.tr
 """
 
                 send_telegram(msg)
+                send_telegram("Bot calisiyor testi 🚄")
 
                 return True
 
