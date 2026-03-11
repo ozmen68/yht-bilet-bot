@@ -18,7 +18,7 @@ def send_telegram(msg):
         "chat_id": CHAT_ID,
         "text": msg
     })
-
+send_telegram("Bot calisiyor testi 🚄")
 
 def check_yht():
 
@@ -60,8 +60,6 @@ https://ebilet.tcddtasimacilik.gov.tr
 """
 
                 send_telegram(msg)
-                send_telegram("Bot calisiyor testi 🚄")
-
                 return True
 
     return False
