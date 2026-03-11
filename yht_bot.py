@@ -12,7 +12,7 @@ target_times = ["15:25", "17:35"]
 
 def send_telegram(msg):
 
-    url = f"https://api.telegram.org/bot8334170823:AAEV3aTrgoJHSjsNq5qybt7sszdKiLrhxg0/sendMessage?chat_id=-1001234567890"
+    url = f"https://api.telegram.org/bot8334170823:AAEV3aTrgoJHSjsNq5qybt7sszdKiLrhxg0/sendMessage"
 
     requests.post(url, data={
         "chat_id": CHAT_ID,
