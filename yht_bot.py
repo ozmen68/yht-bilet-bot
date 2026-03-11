@@ -1,6 +1,6 @@
 import requests
 
-TOKEN = "BURAYA_TOKEN"
+TOKEN = "8334170823:AAEV3aTrgoJHSjsNq5qybt7sszdKiLrhxg0"
 CHAT_ID = "6104691474"
 
 origin_id = 1082
