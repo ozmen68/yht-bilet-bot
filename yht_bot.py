@@ -1,7 +1,7 @@
 import requests
 
 TOKEN = "8334170823:AAEV3aTrgoJHSjsNq5qybt7sszdKiLrhxg0"
-CHAT_ID = "6104691474"
+CHAT_ID = "-1003736768920"
 
 origin_id = 1082
 destination_id = 1088
