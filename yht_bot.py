@@ -23,7 +23,7 @@ def send_telegram(msg):
 
 def check_yht():
 
-    url = "https://ebilet.tcddtasimacilik.gov.tr/eybis/tnmGenel/seferSorgula"
+    url = "https://yht-proxy.menozmen68.workers.dev/"
 
     payload = {
         "nereden": origin,
