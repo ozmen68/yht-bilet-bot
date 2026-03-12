@@ -32,6 +32,8 @@ def check_yht():
 
     r = requests.post(url, json=payload)
 
+    print(r.text)   # JSON çıktısını loglara yazdırır
+
     data = r.json()
 
     if "seferler" not in data:
