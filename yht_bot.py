@@ -18,7 +18,7 @@ def send_telegram(msg):
         "chat_id": CHAT_ID,
         "text": msg
     })
-
+send_telegram("Bot calisiyor testi 🚄 seni seviyorum")
 
 def check_yht():
 
