@@ -30,9 +30,15 @@ def check_yht():
         "tarih": date
     }
 
-    r = requests.post(url, json=payload)
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "application/json"
+    }
 
-    print(r.text)   # JSON çıktısını loglara yazdırır
+    r = requests.post(url, json=payload, headers=headers)
+
+    print(r.text)
 
     data = r.json()
 
